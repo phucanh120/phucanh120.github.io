@@ -1,1 +1,3 @@
-# phucanh120.github.io
+# Music Player
+
+This is my first Music Player project.
