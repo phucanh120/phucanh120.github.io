@@ -30,6 +30,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     color: #fff;
+    margin-top: 15px;
 }
 
 #music_player #music #music_image {
@@ -154,6 +155,7 @@ body {
     border-radius: 2px;
     background: linear-gradient(#ffffffac,#ffffffac) 0/var(--sx) 100% no-repeat, #ffffff44;
     transition: all .1s;
+    cursor: pointer;
 }
 
 #music_player #player #volume_setting::-ms-track {
@@ -162,6 +164,7 @@ body {
     background: linear-gradient(#ffffffac,#ffffffac) 0/var(--sx) 100% no-repeat, #ffffff44;
     border-radius: 2px;
     transition: all .1s;
+    cursor: pointer;
 }
 
 #music_player #player #volume_setting::-moz-range-track {
@@ -170,6 +173,7 @@ body {
     background: linear-gradient(#ffffffac,#ffffffac) 0/var(--sx) 100% no-repeat, #ffffff44;
     border-radius: 2px;
     transition: all .1s;
+    cursor: pointer;
 }
 
 #audio_playing {
@@ -195,4 +199,182 @@ body {
     opacity: 1;
     margin-top: 0;
     pointer-events: auto;
+}
+
+#playlist {
+    background-color: #260653;
+    margin-top: 15px;
+    border-radius: 8px;
+    max-height: 247.5px;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    margin-bottom: 15px;
+    width: 300px;
+}
+
+#playlist .music_box {
+    background-color: #260653;
+    padding: 16px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color .3s;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#playlist .music_box:hover {
+    background-color: #22054a;
+}
+
+#playlist .music_box:not(:last-child) {
+    border-bottom: 1px solid #2a085b;
+}
+
+#playlist .music_box:first-child {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+#playlist .music_box:last-child {
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+#playlist .music_box.is_playing {
+    background-color: #22054a;
+}
+
+#playlist .music_box .img {
+    width: 50px;
+    height: 50px;
+    background-image: var(--img);
+    background-size: cover;
+    background-position: center;
+    border-radius: 4px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#playlist .music_box .img ~ div {
+    margin-left: 15px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#playlist .music_box .img ~ div .author {
+    font-size: 14px;
+}
+
+#playlist::-webkit-scrollbar {
+    background-color: #370976;
+    width: 7px;
+    border-radius: 8px;
+}
+
+#playlist::-webkit-scrollbar-thumb {
+    background-color: #480d9b;
+    border-radius: 4px;
+}
+
+#playlist::-webkit-scrollbar-thumb:hover {
+    background-color: #461092;
+}
+
+#timeline {
+    background-color: #260653;
+    margin-top: 15px;
+    border-radius: 8px;
+    height: 40px;
+    width: 300px;
+}
+
+#timeline #timeline_setting {
+    -webkit-appearance: none;
+
+    width: 270px;
+    position: absolute;
+    background-color: transparent;
+
+    margin-top: 18px;
+
+    margin-left: 17px;
+
+    --range: calc(var(--max) - var(--min));
+    --ratio: calc((var(--value) - var(--min)) / var(--range));
+    --sx: calc(0.5 * 0px + var(--ratio) * (100% - 0px));
+}
+
+#timeline #timeline_setting::-webkit-slider-thumb  {
+    -webkit-appearance: none;
+
+    background-color: #fff;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    cursor: pointer;
+
+    margin-top: -2px;
+
+    opacity: 0;
+}
+
+#timeline #timeline_setting::-moz-range-thumb {
+    -webkit-appearance: none;
+
+    background-color: #fff;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    cursor: pointer;
+
+    margin-top: -2px;
+
+    opacity: 0;
+}
+
+#timeline #timeline_setting::-ms-thumb {
+    -webkit-appearance: none;
+
+    background-color: #fff;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    cursor: pointer;
+
+    margin-top: -2px;
+
+    opacity: 0;
+}
+
+#timeline #timeline_setting::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 3px;
+    border-radius: 2px;
+    background: linear-gradient(#ffffffac,#ffffffac) 0/var(--sx) 100% no-repeat, #ffffff44;
+    cursor: pointer;
+}
+
+#timeline #timeline_setting::-ms-track {
+    width: 100%;
+    height: 3px;
+    border-radius: 2px;
+    background: linear-gradient(#ffffffac,#ffffffac) 0/var(--sx) 100% no-repeat, #ffffff44;
+    cursor: pointer;
+}
+
+#timeline #timeline_setting::-moz-range-track {
+    width: 100%;
+    height: 3px;
+    border-radius: 2px;
+    background: linear-gradient(#ffffffac,#ffffffac) 0/var(--sx) 100% no-repeat, #ffffff44;
+    cursor: pointer;
+}
+
+#timeline #timeline_setting:focus {
+    outline: none;
+}
+
+#timer, #if_first_play {
+    display: none;
 }
