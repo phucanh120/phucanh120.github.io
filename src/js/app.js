@@ -2,19 +2,19 @@ const list_music = [
     {
         'name': "lucky",
         'author': 'phucanh',
-        'src': './src/music/something.mp3',
+        'src': './src/music/lucky.mp3',
         'img': '../img/music/nisekoi_.webp'
     },
     {
         'name': "some thing",
         'author': "phucanh",
-        'src': './src/music/lucky.mp3',
+        'src': './src/music/something.mp3',
         'img': '../img/music/alone_m.jpg'
     },
     {
         'name': "thái bình mồ hôi rơi",
         'author': "phucanh",
-        'src': './src/music/heathensremix.mp3',
+        'src': './src/music/thaibinh.mp3',
         'img': '../img/music/hiding_in_the_blue.jpg'
     },
     {
@@ -26,19 +26,19 @@ const list_music = [
     {
         'name': "HEATHENS REMIX",
         'author': 'phucanh',
-        'src': './src/music/thaibinhmohoiroi.mp3',
+        'src': './src/music/heathens.mp3',
         'img': '../img/music/on_my_way.jpg'
     },
     {
         'name': "vẫn vương",
         'author': 'phucanh',
-        'src': './src/music/lovelydog.mp3',
+        'src': './src/music/vanvuong.mp3',
         'img': '../img/music/rise_up.jpg'
     },
     {
         'name': "lovely dog remix",
         'author': 'phucanh',
-        'src': './src/music/vanvuong.mp3',
+        'src': './src/music/lovely.mp3',
         'img': '../img/music/tabun.jpg'
     },
     {
