@@ -20,7 +20,7 @@ const list_music = [
     {
         'name': "3107",
         'author': 'phucanh',
-        'src': './src/music/3170.mp3',
+        'src': './src/music/3017.mp3',
         'img': '../img/music/nisekoi_.webp'
     },
     {
