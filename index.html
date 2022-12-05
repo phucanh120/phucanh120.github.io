@@ -14,13 +14,20 @@
         <div id="music_player">
             <div id="music_source"></div>
             <div id="music">
-                <div id="music_image" style="--music-img:url(../img/music/shikisai.jpg);"></div>
+                <div id="music_image" style="--music-img:url('');"></div>
                 <div id="music_info">
                     <h1 id="music_name"></h1>
-                    <p id="music_author">by <span id="author">yama</span></p>
+                    <p id="music_author">by <span id="author"></span></p>
                     <span id="audio_playing"></span>
                 </div>
             </div>
+
+            <div id="timeline">
+                <input id="timeline_setting" type="range" min="0" max="100" value="0" style="--value:0;--min:0;--max:100;" oninput="timelineOnChange(this);">
+                <span id="timer"></span>
+                <span id="if_first_play">1</span>
+            </div>
+
             <div id="player">
                 <div id="buttons">
                     <button id="previous"><i class="fas fa-step-backward"></i></button>
@@ -28,8 +35,10 @@
                     <button id="next"><i class="fas fa-step-forward"></i></button>
                 </div>
 
-                <input id="volume_setting" type="range" min="0" max="1" step="0.1" value="1" style="--value:1;--min:0;--max:1;" oninput="soundOnChange(this);">    
+                <input id="volume_setting" type="range" min="0" max="0.5" step="0.0005" value="0.25" style="--value:0.25;--min:0;--max:0.5;" oninput="soundOnChange(this);">    
             </div>
+
+            <div id="playlist"></div>
         </div>
     </div>
     <script src="./src/js/app.js"></script>
