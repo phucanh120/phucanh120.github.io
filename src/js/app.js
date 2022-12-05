@@ -2,12 +2,13 @@ const list_music = [
     {
         'name': "lucky",
         'author': 'phucanh',
-        'src': './src/music/lucky.mp3',
+        'src': './src/music/something.mp3',
+        'img': '../img/music/nisekoi_.webp'
     },
     {
         'name': "some thing",
         'author': "phucanh",
-        'src': './src/music/something.mp3',
+        'src': './src/music/lucky.mp3',
         'img': '../img/music/alone_m.jpg'
     },
     {
