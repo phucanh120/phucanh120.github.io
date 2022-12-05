@@ -2,50 +2,49 @@ const list_music = [
     {
         'name': "lucky",
         'author': 'phucanh',
-        'src': './src/music/y2mate.com - LUCKY TWICE REMIX Vinz x Nam Milano Exclusive Nhạc Hot TikTok Hay Nhất 2022 TannHee Music.mp3',
-        'img': '../img/music/f11.jpg'
+        'src': './src/music/lucky.mp3',
     },
     {
         'name': "some thing",
         'author': "phucanh",
-        'src': './src/music/y2mate.com - The Chainsmokers Coldplay Something Just Like This Asher Remix Cover.mp3',
-        'img': '../img/music/f11.jpg'
+        'src': './src/music/something.mp3',
+        'img': '../img/music/alone_m.jpg'
     },
     {
         'name': "thái bình mồ hôi rơi",
         'author': "phucanh",
-        'src': './src/music/y2mate.com - Thái Bình Mồ Hôi Rơi Remix Vinz Mix Nhạc Hot Tik Tok.mp3',
-        'img': '../img/music/f11.jpg'
+        'src': './src/music/thaibinhmohoiroi.mp3',
+        'img': '../img/music/hiding_in_the_blue.jpg'
     },
     {
         'name': "3107",
         'author': 'phucanh',
-        'src': './src/music/y2mate.com - 3107 2 Remix Chỉ cần ai đó cạnh bên dừng lại Nhạc Hot Tiktok hay nhất 2022.mp3',
-        'img': '../img/music/f11.jpg'
+        'src': './src/music/3170.mp3',
+        'img': '../img/music/nisekoi_.webp'
     },
     {
         'name': "HEATHENS REMIX",
         'author': 'phucanh',
-        'src': './src/music/y2mate.com - HEATHENS REMIX TIKTOK NHẠC CHIẾN ĐÉT HOT TREND TIKTOK.mp3',
-        'img': '../img/music/f11.jpg'
+        'src': './src/music/heathensremix.mp3',
+        'img': '../img/music/on_my_way.jpg'
     },
     {
         'name': "vẫn vương",
         'author': 'phucanh',
-        'src': './src/music/y2mate.com - Vương Vấn x Chưa Chắc Đã Giống Đâu Beat Remix Nhạc Hot Tik Tok 2022.mp3',
-        'img': '../img/music/f11.jpg'
+        'src': './src/music/vanvuong.mp3',
+        'img': '../img/music/rise_up.jpg'
     },
     {
         'name': "lovely dog remix",
         'author': 'phucanh',
-        'src': './src/music/y2mate.com - Lovely Dog Remix TikTok ARS Remix Nhạc Toàn Mùi MIKENCO MIKENCO Trend Remix.mp3',
-        'img': '../img/music/f11.jpg'
+        'src': './src/music/lovelydog.mp3',
+        'img': '../img/music/tabun.jpg'
     },
     {
         'name': "Trang Trại Cần Sa",
         'author': "phucanh",
-        'src': './src/music/y2mate.com - 3 IN 1 X FEEL TRANG TRẠI CẦN REMIX NHẠC HOT TIK TOK 2022.mp3',
-        'img': '../img/music/f11.jpg'
+        'src': './src/music/trangtraicansa.mp3',
+        'img': '../img/music/unity.jpg'
     },
 ];
 
