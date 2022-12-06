@@ -44,7 +44,7 @@ const list_music = [
     {
         'name': "Trang Trại Cần Sa",
         'author': "phucanh",
-        'src': './src/music/trangtraicansa.mp3',
+        'src': './src/music/trangtrai.mp3',
         'img': '../img/music/unity.jpg'
     },
 ];
